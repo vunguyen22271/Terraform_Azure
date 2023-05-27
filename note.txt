@@ -1,0 +1,4 @@
+https://github.com/stacksimplify/hashicorp-certified-terraform-associate-on-azure
+
+https://terraformguru.com/terraform-certification-using-azure-cloud/48-Terraform-State-Import/
+

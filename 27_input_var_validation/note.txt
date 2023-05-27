@@ -1,0 +1,13 @@
+
+# test
+# NOTE: auto use terraform.tfvars file, even if not define on plan command
+terraform plan -var-file="dev.tfvars"
+terraform plan -var-file="qa.tfvars"
+
+# validate function
+length()
+substr()
+contains()
+lower()
+regex()
+can()

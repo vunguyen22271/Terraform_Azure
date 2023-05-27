@@ -1,0 +1,16 @@
+Terraform Configs V2
+Usecase: Create two Azure Linux VMs using Meta-Argument count
+Two Public IPs for two VMs
+Two Network Interfaces two VMs
+
+Learn about Terraform Console
+Learn about Terraform Length Function
+Learn about Terraform element Function
+Learn about Terarform Splat Expression
+
+Folder Path: terraform-manifests-v2
+
+c1-versions.tf: No changes
+c2-resource-group.tf: No changes
+c3-virtual-network.tf: Has changes for Network Interface
+c4-linux-virtual-machine.tf: Has changes

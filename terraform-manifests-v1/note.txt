@@ -1,0 +1,17 @@
+https://terraformguru.com/terraform-certification-using-azure-cloud/11-01-Terraform-Azure-Linux-Virtual-Machine/
+
+# Create ssh key
+# go to ssh-keys dir
+
+ssh-keygen -m PEM -t rsa -b 4096 -C "azureuser@myserver" -f terraform-azure.pem 
+
+# Files Generated after above command 
+Public Key: terraform-azure.pem.pub -> Rename as terraform-azure.pub
+Private Key: terraform-azure.pem
+
+# Permissions for Pem file
+chmod 400 terraform-azure.pem
+
+ssh -i ssh-keys/terraform-azure.pem azureuser@20.239.78.251
+
+ssh -i ssh-keys/terraform-azure.pem azureuser@app1-vm-tomcpq.eastasia.cloudapp.azure.com

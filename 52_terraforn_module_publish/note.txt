@@ -1,0 +1,4 @@
+https://registry.terraform.io/modules/vunguyen22271/module-staticwebsitepublic/vu/latest
+
+https://github.com/vunguyen22271/terraform-vu-module-staticwebsitepublic
+
